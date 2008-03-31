@@ -23,12 +23,10 @@ command 2: *_email is a very convenient way to communicate with friends._*
 
 means just save the content to the chat history for further use.
 
-
 These two commands can be distinguished by regular expression:
 
 command 1:
   * *{{{(email)\s*(.*?@.*?)\s*(.*?),\s*(.*?)}}}*
-
 command 2:
   * *{{{(.*)}}}×
 
@@ -43,4 +41,3 @@ command 2:
 {{{svn checkout http://pygtalkrobot.googlecode.com/svn/trunk/pygtalkrobot/src pygtalkrobot-read-only}}}
   * Just import the lib PyGtalkRobot.py and develop your own robot,enjoy!
   * Please reference the sampleRobot.py for an sample.
-
