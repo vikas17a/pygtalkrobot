@@ -19,7 +19,7 @@ and
 
 command 2: *_email is a very convinent way to communicate with friends._*
 
-means just save the content to the chat history for futher use.
+means just save the content to the chat history for further use.
 
 
 These two commands can be distinguished by regular expression:
