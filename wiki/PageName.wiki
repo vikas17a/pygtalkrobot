@@ -1,4 +1,6 @@
 #labels Featured
+PyGtalkRobot: A gtalk robot framework in Python using XMPPPY library
+
 = Introduction =
 
 PyGtalkRobot is a framework for developing Gtalk robot conveniently.
@@ -29,3 +31,16 @@ command 1:
 
 command 2:
   * *{{{(.*)}}}×
+
+= Install = 
+== Prerequisite ==
+  * Python 2.4+: http://www.python.com/ or ActivePython:http://www.activestate.com/Products/activepython/
+  * xmpppy: http://xmpppy.sourceforge.net/
+
+== Install ==
+  * Checkout the source code form SVN server:
+
+{{{svn checkout http://pygtalkrobot.googlecode.com/svn/trunk/pygtalkrobot/src pygtalkrobot-read-only}}}
+  * Just import the lib PyGtalkRobot.py and develop your own robot,enjoy!
+  * Please reference the sampleRobot.py for an sample.
+
