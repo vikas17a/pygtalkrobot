@@ -19,7 +19,7 @@ means just save the content to the chat history for futher use.
 
 These two commands can be distinguished by regular expression:
 command 1:
-  * *"(email)\s*(.*?@.*?)\s*(.*?),\s*(.*?)"*
+  * *{{{(email)\s*(.*?@.*?)\s*(.*?),\s*(.*?)}}}*
 
 command 2:
-  * *"(.*)"
+  * *{{{(.*)}}}×
