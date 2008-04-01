@@ -1,6 +1,7 @@
 #labels Featured
 PyGtalkRobot: A gtalk robot framework in Python using XMPPPY library
 
+---- 
 = Introduction =
 
 PyGtalkRobot is a framework for developing Gtalk robot conveniently.
@@ -9,6 +10,7 @@ PyGtalkRobot use Regular Expression Patterns as the command controller, which me
 
 
 
+---- 
 = Details =
 
 such as:
@@ -23,15 +25,17 @@ command 2: *_email is a very convenient way to communicate with friends._*
 
 means just save the content to the chat history for further use.
 
+---- 
 
 These two commands can be distinguished by regular expression:
 
 command 1:
-  * *{{{(email)\s*(.*?@.*?)\s*(.*?),\s*(.*?)}}}*
+  * *{{{(email)\s+(.*?@.+?)\s+(.*?),\s*(.*?)}}}*
 
 command 2:
   * *{{{(.*)}}}*
 
+---- 
 = Install = 
 == Prerequisite ==
   * Python 2.4+: http://www.python.com/ or ActivePython:http://www.activestate.com/Products/activepython/
@@ -53,6 +57,7 @@ command 2:
   # Call the start() method of your instance 
   # Please reference the sampleRobot.py for an sample.
 
+---- 
 = Related projects =
   * python-jabberbot: A simple Jabber Bot for Python: http://thpinfo.com/2007/python-jabberbot/
 
