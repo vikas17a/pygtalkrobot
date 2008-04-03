@@ -1,0 +1,61 @@
+#labels Featured,Phase-Implementation,Phase-Deploy
+PyGtalkRobot: A gtalk robot framework in Python using XMPPPY library
+
+----
+= Introduction =
+
+PyGtalkRobot is a framework for developing Gtalk robot conveniently.
+
+PyGtalkRobot use Regular Expression Patterns as the command controller, which means that developers can develop very complicated command system and more intelligent robots.
+
+
+
+----
+= Details =
+
+such as:
+
+command 1: *_email ldmiao@gmail.com hello, nice to meet you_*
+
+means send an email to *_ldmiao@gmail.com_* with subject *_hello_* and content *_nice to meet you_*
+
+and
+
+command 2: *_email is a very convenient way to communicate with friends._*
+
+means just save the content to the chat history for further use.
+
+
+These two commands can be distinguished by regular expression:
+
+command 1:
+  * *{{{(email)\s+(.*?@.+?)\s+(.*?),\s*(.*?)}}}*
+
+command 2:
+  * *{{{(.*)}}}*
+
+----
+= Install = 
+== Prerequisite ==
+  * Python 2.4+: http://www.python.com/ or ActivePython:http://www.activestate.com/Products/activepython/
+
+== Dependencies ==
+  * xmpppy: http://xmpppy.sourceforge.net/
+
+== Install ==
+  * Checkout the source code form SVN server:
+
+{{{svn checkout http://pygtalkrobot.googlecode.com/svn/trunk/pygtalkrobot/src pygtalkrobot-read-only}}}
+
+== How to Use ==
+  # Just import the lib PyGtalkRobot.py: {{{from PyGtalkRobot import GtalkRobot}}}.
+  # Subclass the GtalkRobot class 
+  # Add methods starting with *_{{{command_}}}_*, these will be exported as commands (e.g. def *_{{{command_01_display_id(self, user, message, args)}}}_*); 
+  # The methods should send the message (or None if the command gives no reply) back to the *_{{{user}}}_* using method *_{{{replyMessage(self, user, message)}}}_*
+  # Create an instance of your bot, supplying username and password 
+  # Call the start() method of your instance 
+  # Please reference the sampleRobot.py for an sample.
+
+----
+= Related projects =
+  * python-jabberbot: A simple Jabber Bot for Python: http://thpinfo.com/2007/python-jabberbot/
