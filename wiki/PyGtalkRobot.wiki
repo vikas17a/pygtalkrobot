@@ -129,7 +129,7 @@ if __name__ == "__main__":
   # Please reference the sampleRobot.py for a sample.
 ----
 
-= Projects that used PyGtalkRobot =
+= Projects or bots using PyGtalkRobot =
   * Artifical Intelligence Assistant(AIA): http://aiassistant.appspot.com/chat/ Bot:*aiassistantbot@gmail.com*
 
   * Search NewSMTH: Bot:*smth.robot@gmail.com*
