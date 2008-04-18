@@ -132,6 +132,8 @@ if __name__ == "__main__":
 = Projects that used PyGtalkRobot =
   * Artifical Intelligence Assistant(AIA): http://aiassistant.appspot.com/chat/ Bot:*aiassistantbot@gmail.com*
 
+  * Search NewSMTH: http://sousmth.appspot.com/chat/ Bot:*smth.robot@gmail.com*
+
 ----
 = Related projects =
   * python-jabberbot: A simple Jabber Bot for Python: http://thpinfo.com/2007/python-jabberbot/
