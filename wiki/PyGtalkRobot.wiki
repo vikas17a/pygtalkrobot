@@ -43,7 +43,7 @@ In which, command 1 have the higher priority than command 2.
 
 ----
 
-== Sample Bot code([http://pygtalkrobot.googlecode.com/files/sampleRobot.py src]) ==
+== Sample Bot code([http://code.google.com/p/pygtalkrobot/wiki/sampleRobotCode python syntax highlighted] [http://pygtalkrobot.googlecode.com/files/sampleRobot.py download]) ==
 
 
 {{{
