@@ -78,6 +78,6 @@ class SampleBot(GtalkRobot):
 if __name__ == "__main__":
     bot = SampleBot()
     bot.setState('available', "Simple Gtalk Robot")
-    bot.start("PyGtalkRobot@gmail.com", "PyGtalkRobotByLdmiao")
+    bot.start("account_name@gmail.com", "account_password")
 
 }}}
