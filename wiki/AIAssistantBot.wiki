@@ -1,5 +1,0 @@
-#labels Featured,Phase-Deploy,Phase-Design
-=Artifical Intelligence Assistant (AIA)=
-==AIA is an assistant that can do tasks like keeping accounts, arranging TODOs and so on intelligently.==
-
-More informatin in: [http://aiassistant.appspot.com/chat/]
