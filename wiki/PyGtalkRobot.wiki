@@ -44,7 +44,7 @@ In which, command 1 have the higher priority than command 2.
 ----
 = Install = 
 == Prerequisite ==
-  * Python 2.4+: http://www.python.com/ or ActivePython:http://www.activestate.com/Products/activepython/
+  * Python 2.4+: http://www.python.org/ or ActivePython:http://www.activestate.com/Products/activepython/
 
 == Dependencies ==
   * xmpppy: http://xmpppy.sourceforge.net/
